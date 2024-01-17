@@ -69,8 +69,6 @@ body {
   width: 412px;
 }
 
-
-
 .sprint-header-container{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -97,10 +95,4 @@ body {
 
 .link{
   text-decoration: none;
-}
-
-@media screen and (min-width: 80rem) {
-  .container {
-    margin: 1em 2em;
-  }
 }
