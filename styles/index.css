@@ -1,5 +1,6 @@
 body {
   background-color: rgb(33, 33, 33);
+  font-family: Roboto, Arial;
 }
 
 .container{
@@ -43,7 +44,6 @@ body {
 }
 
 div{
-  font-family: Roboto, Arial;
   font-size: 20px;
   font-weight: bold;
   color: white;
