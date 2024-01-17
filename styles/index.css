@@ -1,0 +1,48 @@
+body {
+  padding-bottom: 3000px;
+  background-color: rgb(33, 33, 33);
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  background-color: rgb(181, 181, 181);
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.home-container {
+  background-color: rgb(55, 55, 55);
+  border: none;
+  border-radius: 6px;
+  margin: 10px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.home-text{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+.sprint-container {
+  background-color:rgb(55, 55, 55);
+  border: none;
+  border-radius: 6px;
+  margin: 10px;
+  overflow: hidden;
+  flex: 1;
+}
+
+.sprint-link-container{
+  background-color: red;
+  height: 60px;
+}
