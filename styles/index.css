@@ -6,6 +6,7 @@ body {
 .sidebar-container {
   display: flex;
   flex-direction: column;
+
   width: 420px;
   background-color: rgb(181, 181, 181);
 
@@ -45,10 +46,14 @@ body {
   flex: 1;
 }
 
+.sprint-header-container{
+  margin-bottom: 20px;
+}
+
 .sprint-link-container{
   display: flex;
   height: 60px;
-  margin-top: 20px;
+  padding:12px 0px ;
 }
 
 .sprint-link-container:hover{
