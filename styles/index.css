@@ -16,6 +16,9 @@ body {
 }
 
 .home-container {
+  display: flex;
+  align-items: center;
+
   background-color: rgb(55, 55, 55);
   border: none;
   border-radius: 6px;
@@ -25,7 +28,7 @@ body {
 }
 
 .home-text{
-  font-family: Arial;
+  font-family: Roboto, Arial;
   font-size: 20px;
   font-weight: bold;
   margin-left: 20px;
@@ -43,6 +46,21 @@ body {
 }
 
 .sprint-link-container{
-  background-color: red;
+  display: flex;
   height: 60px;
+  margin-top: 20px;
+}
+
+.sprint-link-container:hover{
+  background-color: rgba(211, 211, 211, 0.129);
+
+}
+
+.github-icon{
+  width: 110px;
+
+}
+
+.home-icon{
+  width: 50px;
 }
