@@ -27,9 +27,14 @@ body {
   background-color: rgb(55, 55, 55);
   border: none;
   border-radius: 6px;
+  margin-top: 8px;
   margin-left: 8px;
   margin-right: 8px;
-  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 412px
 }
 
 .home-icon{
@@ -53,6 +58,12 @@ body {
   margin: 8px;
   overflow: hidden;
   flex: 1;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 76px;
+  width: 412px;
 }
 
 
@@ -64,6 +75,7 @@ body {
 
 .sprint-link-container{
   display: flex;
+  align-items: center;
   height: 60px;
   padding:12px 0px;
 }
@@ -76,5 +88,12 @@ body {
   width: 110px;
 }
 
+.tiki-icon{
+  width: 70px;
+}
+
+.link{
+  text-decoration: none;
+}
 
 
