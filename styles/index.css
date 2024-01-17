@@ -1,5 +1,4 @@
 body {
-  padding-bottom: 3000px;
   background-color: rgb(33, 33, 33);
 }
 
@@ -48,6 +47,10 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin-left: 20px;
+  color: rgb(193, 193, 193);
+  transition: color 0.5s;
+}
+.home-text:hover{
   color: white;
 }
 
@@ -96,4 +99,8 @@ body {
   text-decoration: none;
 }
 
-
+@media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
