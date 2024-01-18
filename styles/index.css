@@ -6,13 +6,14 @@ body {
 }
 
 div{
-  font-size: 1rem;
+  font-size: calc(0.5rem + 0.5vw);
   font-weight: bold;
   color: white;
 }
 
 .container{
   display: flex;
+  flex-wrap: wrap;
   padding: 0.5rem;
   
 }
@@ -31,11 +32,29 @@ div{
   width: 15%;
   height: 100%;
 }
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .sidebar-container, .main-view-container {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+   .sprint-container .sprint-link-container{
+    height: 3vh;
+    
+   }
+
+   .sidebar-container .tiki-icon,
+   .sidebar-container .github-icon,
+   .sidebar-container .home-icon{
+    width: 30px;
+  }
+}
 
 .home-container {
   display: flex; 
   align-items:center;
-  height: 4rem;
+  height: 6vh;
   border-radius: 0.5rem;
   background-color: rgb(55, 55, 55);
 }
@@ -46,7 +65,7 @@ div{
 
 .home-text{
   font-family: Roboto, Arial;
-  font-size: 1rem;
+  font-size: calc(0.5rem + 0.5vw);
   font-weight: bold;
   color: rgb(193, 193, 193);
   transition: color 0.5s;
@@ -59,17 +78,16 @@ div{
   background-color:rgb(55, 55, 55);
   border-radius: 0.5rem;
   margin-top: 0.5rem;
-  height: 100vh;
 }
 
 .sprint-header-container{
-  padding: 1rem;
+  padding: 2vh;
 }
 
 .sprint-link-container{
   display: flex;
   align-items: center;
-  height: 3.75rem;
+  height: 7vh;
   padding:0.5rem 0rem;
 }
 
@@ -83,9 +101,9 @@ div{
 
 .tiki-icon{
   width: 30%;
-  
 }
 
 .link{
   text-decoration: none;
 }
+
