@@ -2,12 +2,11 @@ body {
   background-color: rgb(33, 33, 33);
   font-family: Roboto, Arial;
   color: white;
+  font-size: calc(0.5rem + 0.5vw);
   margin: 0px;
 }
 
 div{
-  font-size: calc(0.5rem + 0.5vw);
-  font-weight: bold;
   color: white;
 }
 
@@ -46,7 +45,6 @@ div{
 
    .sidebar-container .tiki-icon,
    .sidebar-container .github-icon,
-   .sidebar-container .home-icon,
    .sidebar-container .hamburger-menu-icon{
     width: 30px;
   }
@@ -60,24 +58,28 @@ div{
 .home-container {
   display: flex; 
   align-items:center;
-  height: 6vh;
   border-radius: 0.5rem;
   background-color: rgb(55, 55, 55);
+  padding: 12px 24px;
+  
 }
 
-.home-icon{
-  width: 15%;
-}
-
-.home-text{
-  font-family: Roboto, Arial;
-  font-size: calc(0.5rem + 0.5vw);
-  font-weight: bold;
+#home,
+#blog{
   color: rgb(193, 193, 193);
   transition: color 0.5s;
 }
-.home-text:hover{
+
+#home:hover,
+#blog:hover{
   color: white;
+}
+
+.home-text,
+.blog-text{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 20px;
 }
 
 .sprint-container {
@@ -89,7 +91,7 @@ div{
 .sprint-header-container{
   display: flex;
   align-items: center;
-  padding:0.5rem 0rem;
+  padding: 12px 24px;
 }
 
 .sprint-link-container{
