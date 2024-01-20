@@ -14,7 +14,6 @@ div{
   display: flex;
   flex-wrap: wrap;
   padding: 0.5rem;
-  
 }
 
 .main-view-container{
@@ -39,11 +38,9 @@ div{
     margin-bottom: 0.5rem;
   }
    .sprint-container .sprint-link-container{
-    height: 3vh;
    }
 
    .sidebar-container .blog-icon,{
-    width: 30px;
   }
 }
 
