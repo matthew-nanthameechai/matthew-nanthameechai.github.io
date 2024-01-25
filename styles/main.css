@@ -10,6 +10,14 @@
   color: lightpink;
 }
 
-.main-text{
-  
+.main-header-container{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: rgb(2,0,45);
+  background: linear-gradient(180deg, rgba(2,0,45,1) 0%, rgba(24,24,133,1) 100%);
+}
+
+.main-info-container{
+  padding: 1rem;
 }
