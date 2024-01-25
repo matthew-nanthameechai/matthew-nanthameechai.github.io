@@ -3,7 +3,8 @@
   border-radius: 0.5rem;
   background-color: rgb(55, 55, 55);
   overflow: auto;
-  padding: 0.02px;
+  padding-left: 0.1px;
+  
 }
 
 .video-a-link{
