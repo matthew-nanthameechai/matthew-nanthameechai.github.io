@@ -22,3 +22,12 @@
 .main-info-container{
   padding: 1rem;
 }
+
+.table{
+  width: 50%;
+}
+.table, th, td{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
